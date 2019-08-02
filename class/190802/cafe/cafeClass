@@ -1,0 +1,7 @@
+graph TD
+  drink --> coffee
+  drink --> tea
+  drink --> ade
+  coffee --> latte
+  coffee --> ccino
+  coffee --> mocha

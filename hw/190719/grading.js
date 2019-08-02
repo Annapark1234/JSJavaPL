@@ -15,3 +15,30 @@
 // F : You useless piece of ...
 // hint: array 와 object Collection을 사용하면 좋다.
 // console.log는 마찬가지로 딱! 한번만 써야 한다.
+
+
+var grade = 82
+var alphaGrade
+var comment = {
+  A : "you are awesome",
+  B : "Good job!",
+  C : "You can do better!",
+  D : "you should have worked harder",
+  F : "You useless piece of ..."}
+
+if (grade >= 90){
+  alphaGrade = "A"
+}
+else if (grade >= 80){
+  alphaGrade = "B"
+}
+else if (grade >= 70){
+  alphaGrade = "C"
+}
+else if (grade >= 60){
+  alphaGrade = "D"
+}
+else {
+  alphaGrade = "F"
+}
+console.log ("You got " + alphaGrade + "." + comment[alphaGrade])
